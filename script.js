@@ -1,7 +1,3 @@
-
-
-
-
 window.onscroll = function () {
     const button = document.getElementById("scrollToTopButton");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -14,9 +10,3 @@ window.onscroll = function () {
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
-
-  
-
-
-
-  
